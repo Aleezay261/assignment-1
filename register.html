@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register - Drama Club</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Drama Club</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="events.html">Events</a>
+      <a href="register.html">Register</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Join the Club</h2>
+
+    <form id="regForm">
+      <label for="name">Name</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+
+      <label for="interest">I am interested in</label>
+      <select id="interest">
+        <option value="Acting">Acting</option>
+        <option value="Writing">Script writing</option>
+        <option value="Backstage">Backstage work</option>
+      </select>
+
+      <button type="submit">Register</button>
+    </form>
+
+    <h2>Registered Members</h2>
+    <ul id="list"></ul>
+  </main>
+
+  <footer>
+    <p>Drama Club, Qarshi University</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
