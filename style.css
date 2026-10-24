@@ -37,7 +37,9 @@ input, select {
   width: 100%;
   padding: 8px;
 }
-
+.event {
+  border-left: 5px solid #5a1a2b;
+}
 button {
   padding: 10px 20px;
   background-color: #5a1a2b;
