@@ -1,7 +1,21 @@
 body {
   font-family: Arial;
   margin: 0;
-  background-color: #f4f1ee;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.home {
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(images/1.png);
+}
+
+.events {
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(images/2.png);
+}
+
+.register {
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(images/3.png);
 }
 
 header, footer {
@@ -23,9 +37,13 @@ main {
 }
 
 section, .event, form {
-  background-color: white;
+  background-color: rgba(255,255,255,0.7);
   padding: 15px;
   margin-bottom: 15px;
+}
+
+.event {
+  border-left: 5px solid #5a1a2b;
 }
 
 label, input, select, button {
@@ -36,10 +54,9 @@ label, input, select, button {
 input, select {
   width: 100%;
   padding: 8px;
+  box-sizing: border-box;
 }
-.event {
-  border-left: 5px solid #5a1a2b;
-}
+
 button {
   padding: 10px 20px;
   background-color: #5a1a2b;
