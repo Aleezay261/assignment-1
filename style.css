@@ -7,15 +7,15 @@ body {
 }
 
 .home {
-  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(images/1.png);
+  background-image: url(images/1.png);
 }
 
 .events {
-  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(images/2.png);
+  background-image: url(images/2.png);
 }
 
 .register {
-  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(images/3.png);
+  background-image: url(images/3.png);
 }
 
 header, footer {
@@ -36,8 +36,18 @@ main {
   padding: 20px;
 }
 
+main > h2 {
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+
+#list {
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+
 section, .event, form {
-  background-color: rgba(255,255,255,0.7);
+  background-color: white;
   padding: 15px;
   margin-bottom: 15px;
 }
