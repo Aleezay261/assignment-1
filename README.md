@@ -13,4 +13,5 @@ register.html: registration form saved in localStorage
  images/3.png: a card 
 
  -How to run
+ file:///C:/xampp/htdocs/CIT331%20coursework/cit331-assignment1/index.html
 Download the folder and open index.html in a browser.
