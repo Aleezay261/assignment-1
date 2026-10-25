@@ -13,5 +13,5 @@ register.html: registration form saved in localStorage
  images/3.png: a card 
 
  -How to run
-https://aleezay261.github.io/assignment-1/index.html
+ https://aleezay261.github.io/assignment-1/index.html
 Download the folder and open index.html in a browser.
